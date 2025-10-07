@@ -1,0 +1,53 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Student Feedback Survey</h1>
+    <p id="description">We value your feedback! Please fill out this short survey to help us improve.</p>
+    <form id="survey-form" >
+    <label id="name-label"> 
+    <input id="name" type="text" placeholder="Enter your name" name="name" required></input><br></br>
+    <label id="email-label"> 
+    <input id="email" type="email" placeholder="Enter your email address" name="email" required></input><br></br>
+    <label id="number-label">Enter your age:
+    <input id="number" type="number" name="age" min="18" max="100" placeholder="age"></input><br></br>
+    <label id="name-label"> 
+    </form>Select your role:
+    <select id="dropdown" name="role" required>
+      <label>Select your role:
+      <option value="" disabled>Select your role</option><br></br>
+      <option value="UG">UG</option>
+      <option value="PG">PG</option>
+      </select><br></br>
+      <label>Did you recommend your friend about Amity University Benguluru
+        <input type="radio" name="recommend" value="yes" required>Yes</input>      
+        <input type="radio" name="recommend" value="no"> No
+      </label><br></br>
+      <label>Which programming language you know:
+        <input type="checkbox" value="html"> HTML</label>
+      <label><input type="checkbox" value="css"> CSS</label>
+      <label><input type="checkbox" value="javascript"> JavaScript</label>
+      <label><input type="checkbox" value="python"> Python</label>
+      <label>message</label>
+      <textarea name="message" placeholder="Feedback"></textarea><br></br>
+
+      <button type="submit" id="submit">Submit</button>
+      
+
+
+
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
